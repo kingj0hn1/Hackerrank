@@ -1,0 +1,8 @@
+
+
+def miniMaxSum(arr):
+    # Write your code here
+    x = sum(arr) - max(arr)
+    y = sum(arr) - min(arr)
+    
+    print(x, y)
