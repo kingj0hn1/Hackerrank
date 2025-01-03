@@ -1,0 +1,16 @@
+def plusMinus(arr):
+    # Write your code here
+    negative = 0 
+    positive = 0 
+    zeroes = 0
+    for num in arr:
+        if num > 0:
+            positive += 1
+        elif num < 0:
+            negative += 1
+        elif num == 0:
+            zeroes +=1
+    
+    print(f'{positive/n: .6f}')
+    print(f'{negative/n: .6f}')
+    print(f'{zeroes/n: .6f}')
